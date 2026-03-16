@@ -1,14 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 48" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 50">
   <defs>
-    <linearGradient id="ai-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#6366f1"/>
-      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
     </linearGradient>
   </defs>
-  <!-- "build your" text -->
-  <text x="0" y="35" font-family="Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="32" font-weight="600" fill="#1e1b4b" letter-spacing="-0.5">build your</text>
-  <!-- "AI" text with gradient -->
-  <text x="202" y="35" font-family="Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="32" font-weight="800" fill="url(#ai-grad)" letter-spacing="-0.5">AI</text>
-  <!-- ".app" text subtle -->
-  <text x="243" y="35" font-family="Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="32" font-weight="400" fill="#94a3b8" letter-spacing="-0.5">.app</text>
+  <!-- Three connected dots icon -->
+  <circle cx="8" cy="18" r="4" fill="url(#g2)"/>
+  <circle cx="22" cy="28" r="4" fill="url(#g2)"/>
+  <circle cx="8" cy="38" r="4" fill="url(#g2)"/>
+  <line x1="10" y1="20" x2="20" y2="26" stroke="url(#g2)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="10" y1="36" x2="20" y2="30" stroke="url(#g2)" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Wordmark — single flowing sentence using tspan -->
+  <text x="36" y="35" font-family="Inter, system-ui, sans-serif" font-size="22" letter-spacing="-0.3"><tspan font-weight="500" fill="#0f172a">build your </tspan><tspan font-weight="800" fill="url(#g2)">AI</tspan><tspan font-weight="400" fill="#94a3b8">.app</tspan></text>
 </svg>
